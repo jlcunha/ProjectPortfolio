@@ -2635,7 +2635,6 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 4rem 0;
-			float: right; /* ou float: right; */
 			width: 100%;
 		}
 
@@ -4669,17 +4668,7 @@ input, select, textarea {
 			#navPanel {
 				padding: 2.5rem 1.75rem;
 			}
-			<article>
-			<span class="icon solid fa-code"></span>
-			<div class="content">
-			  <h3>My programming language and database skills include:</h3>
-			  <ul>
-				<li>Python for Data Science</li>
-				<li>Web Scraping with Python</li>
-				<li>SQL for Data Extraction</li>
-				<li>Database management in SQLite and Postgres</li>
-			  </ul>
-			</div>
+
 		}
 
 	@media screen and (max-width: 980px) {

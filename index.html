@@ -15,6 +15,7 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
+		
 			<div id="wrapper" class="fade-in">
 
 				<!-- Intro -->
@@ -23,7 +24,7 @@
 						<h1>Data Scientist</h1>
 						<h2>Hello, welcome to my Data Science Project Portfolio!</h2>
 						<p>Here, I showcase my proficiency in utilizing data science techniques to solve business problems, using publicly available data. In addition, I highlight my professional experiences, skills, and knowledge in the field of Data Science, including the tools I use.
-						<p>Please don't hesitate to reach out to me using the links provided at the bottom of the page. I'm always open to connecting and discussing potential collaborations.</p>
+						<p>Please don't hesitate to reach out to me using the links provided at the bottom of the page. <br />I'm always open to connecting and discussing potential collaborations.</p>
 						</p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -39,12 +40,13 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">English</a></li>
-							<li><a href="generic.html">Portuguese</a></li>
+							<li><a href="index_portugueses.html">Portuguese</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="lucasdacunh@gmail.com" class="icon solid fa-envelope"><span class="label">Twitter</span></a></li>
-							<li><a href="http://www.linkedin.com/in/lucas-dacunha" class="icon brands fa-linkedin"><span class="label">Facebook</span></a></li>
+							<li><a href="lucasdacunh@gmail.com" class="icon solid fa-envelope"><span class="label">Gmail</span></a></li>
+							<li><a href="http://www.linkedin.com/in/lucas-dacunha" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							<li><a href="https://github.com/jlcunha" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://medium.com/@lucasdacunh" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
 						</ul>
 					</nav>
 
@@ -104,49 +106,44 @@
 									</header>
 									<div class="features">
 									  <article>
-										<span class="icon solid fa-code"></span>
 										<div class="content">
-										  <h3>My programming language and database skills include:</h3>
+										  <h3>Programming and Query Languages</h3>
 										  <ul>
-											<li>Python for Data Science</li>
-											<li>Web Scraping with Python</li>
-											<li>SQL for Data Extraction</li>
-											<li>Database management in SQLite and Postgres</li>
+											<li>Python</li>
+											<li>SQL</li>
 										  </ul>
 										</div>
 									  </article>
 									  <article>
-										<span class="icon solid fa-sitemap"></span>
 										<div class="content">
 										  <h3>Statistics and Machine Learning:</h3>
 										  <ul>
-											<li>Strong understanding of descriptive statistics including measures of location, dispersion, asymmetry, kurtosis, and density.</li>
+											<li>Descriptive statistics including measures of location, dispersion, asymmetry, kurtosis, and density.</li>
 											<li>Experience in building and evaluating regression, classification, and clustering models.</li>
-											<li>Familiarity with data balancing techniques, attribute selection, and dimensionality reduction methods.</li>
-											<li>Proficiency in using popular machine learning packages such as Scikit-Learn and Scipy</li>
+											<li>Knowledge with data balancing techniques, attribute selection, and dimensionality reduction methods.</li>
 										  </ul>
 										</div>
 									  </article>
 									  <article>
-										<span class="icon solid fa-chart-bar"></span>
-										<div class="content">
-										  <h3>Data Visualizations tools:</h3>
-										  <ul>
-											<li>Matplotlib, Seaborn and Plotly.</li>
-											<li>Power BI</li>
-										  </ul>
-										</div>
-									  </article>
-									  <article>
-										<span class="icon solid fa-cogs"></span>
 										<div class="content">
 										  <h3>Software Engineering:</h3>
 										  <ul>
-											<li>Version control with Git, using Github and Gitlab.</li>
+											<li>Version control with Git, GitHub and Gitlab.</li>
 											<li>Experience working with virtual environments.</li>
-											<li>Knowledge of Crontab for scheduling tasks.</li>
-											<li>Experience with developing and deploying web applications using Streamlit, Panel, and Python APIs.</li>
-											<li>Experience with deploying applications on cloud platforms such as Heroku and Render.</li>
+											<li>Knowledge in scheduling tasks.</li>
+											<li>Experience with deploying applications (API) on cloud.</li>
+										  </ul>
+										</div>
+									  </article>
+									  <article>
+										<div class="content">
+										  <h3>Other tools and techniques</h3>
+										  <ul>
+											<li>Power BI</li>
+											<li>Streamlit and Sweeviz</li>
+											<li>Regex</li>
+											<li>Web Scraping</li>
+											<li>Pipeline</li>
 										  </ul>
 										</div>
 									  </article>
@@ -168,12 +165,13 @@
 								  </style>
 								  
 						<!-- Posts -->
-						<h2>Data Science Projects:</h2>
+						<header class="major">
+							<h2>Data Science Projects:</h2>
+						</header>
 						
-							<section class="posts">
 								<article>
 									<header>
-										<h2>Predicting the likelihood of customers purchasing car insurance</h2>
+										<h2>Classification - Learning to Rank</h2>
 									</header>
 									<a href="https://github.com/jlcunha/HealthInsuranceCrossSell" class="image fit"><img src="images/everguardian.png" alt="" /></a>
 									<p>In this project, I developed a machine learning model to predict the probability of customers purchasing car insurance. The model was trained on data collected from existing customers who possess health insurance. By targeting only the customers who are most likely to purchase insurance, the company can reduce the cost of making unnecessary sales calls and improve its overall profitability.</p>
@@ -183,21 +181,10 @@
 										<li><a href="https://github.com/jlcunha/HealthInsuranceCrossSell" class="button">Learn More</a></li>
 									</ul>
 								</article>
+
 								<article>
 									<header>
-										<h2>Sales Forecast for the next few weeks, using Machine Learning</h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/rossmann.jpg" alt="" /></a>
-									<p>This project focuses on predicting the sales forecast for the next 6 weeks of the Rossmann pharmacy chain, using Machine Learning models. The models were trained on historical sales data, and the results are delivered through a Telegram chatbot.</p>
-									<p>Five different models were implemented, and the XGBoost model was selected as the most accurate. To deploy the model into production, Flask and Heroku's cloud were utilized, and the Telegram chatbot was created for users to access the predictions from anywhere.</p>
-									<p>Overall, this project showcases the potential of Machine Learning in forecasting sales and highlights the benefits of using a chatbot to deliver the results conveniently.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jlcunha/NorthWind" class="button">Learn More</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2><a href="#">Customers in churn and low average ticket</h2>
+										<h2><a href="#">Churn and low average ticket</h2>
 									</header>
 									<a href="https://github.com/jlcunha/NorthWind" class="image"><img src="images/NorthWind.png" alt="" /></a>
 									<p>This project focuses on addressing some of the challenges faced by the fictitious company North Winds, including issues such as disorganized data, customer churn, and low average ticket.</p>
@@ -209,29 +196,39 @@
 								</article>
 								<article>
 									<header>
-										<h2>Data Collection Strategies for the Fashion Industry</h2>
+										<h2>Time-Series Regression - Sales Forecast</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/starjeans.jpg" alt="" /></a>
-									<p>To gain valuable insights into the fashion market, this project utilized Web Scraping to collect data on products and prices from an e-commerce clothing store. The collected data was then processed using various techniques including Regex, and for the final ETL stage, it was loaded into a SQLite database.</p>
-<p>To automate the data collection process, Cron was implemented. Additionally, a dashboard was created using Panel and HVPlot to visualize and explore key insights from the collected data.</p>
+									<a href="https://github.com/jlcunha/rossmann_sales_forecasting" class="image fit"><img src="images/rossmann.jpg" alt="" /></a>
+									<p>This project focuses on predicting the sales forecast for the next 6 weeks of the Rossmann pharmacy chain, using Machine Learning models. The models were trained on historical sales data, and the results are delivered through a Telegram chatbot.</p>
+									<p>Five different models were implemented, and the XGBoost model was selected as the most accurate. To deploy the model into production, Flask and Heroku's cloud were utilized, and the Telegram chatbot was created for users to access the predictions from anywhere.</p>
+									<p>Overall, this project showcases the potential of Machine Learning in forecasting sales and highlights the benefits of using a chatbot to deliver the results conveniently.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Learn More</a></li>
+										<li><a href="https://github.com/jlcunha/rossmann_sales_forecasting" class="button">Learn More</a></li>
 									</ul>
 								</article>
 								<article>
 									<header>
-										<h2>Identifying Properties for Purchase and Resale</h2>
+										<h2>Web Scraping for the Fashion Industry</h2>
 									</header>
-									<a href="#" class="image fit"><img src="images/KingCounty.jpg" alt="" /></a>
+									<a href="https://github.com/jlcunha/starjeans_web_scraping" class="image fit"><img src="images/starjeans.jpg" alt="" /></a>
+									<p>To gain valuable insights into the fashion market, this project utilized Web Scraping to collect data on products and prices from an e-commerce clothing store. The collected data was then processed using various techniques including Regex, and for the final ETL stage, it was loaded into a SQLite database.</p>
+									<p>To automate the data collection process, Cron was implemented. Additionally, a dashboard was created using Panel and HVPlot to visualize and explore key insights from the collected data.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/jlcunha/starjeans_web_scraping" class="button">Learn More</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2>Real Estate Data Analysis Project</h2>
+									</header>
+									<a href="https://github.com/jlcunha/House-Rocket" class="image fit"><img src="images/KingCounty.jpg" alt="" /></a>
 									<p>The House Rocket project is focused on maximizing profits through real estate investment opportunities. The project involves multiple steps, including data collection, cleaning and transformation, visualization, exploratory data analysis, and the creation of a property recommendation application based on the user's music preferences. </p>
 									<p>The project also includes negotiation strategies, such as identifying properties with good resale potential and defining competitive prices. Overall, the goal is to provide the company with insights and tools to make informed decisions that will maximize profits in the real estate market.</p>
 									<ul class="actions special">
-										<li><a href="#" class="button">Learn More</a></li>
+										<li><a href="https://github.com/jlcunha/House-Rocket" class="button">Learn More</a></li>
 									</ul>
 								</article>
 								
-							</section>
-
 						<!-- Footer -->
 							<footer>
 								
@@ -254,16 +251,18 @@
 							</section>
 							<section>
 								<h3 class="icon brands alt fa-github"> GitHub</h3>
-								<ul class="icons alt">
 									<a href="https://github.com/jlcunha">@jlcunha</a>
-								</ul>
+							</section>
+							<section>
+								<h3 class="icon brands alt fa-medium"> Medium</h3>
+									<a href="https://medium.com/@lucasdacunh">@lucasdacunh</a>
 							</section>
 						</section>
 					</footer>
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; Lucas da Cunha - PROJECT PORTFOLIO</li><li></li></ul>
 					</div>
 
 			</div>
